@@ -10,21 +10,20 @@ header{
   height: 50px;
   background-color:#FF9A4B;
 }
-.main-back{
-  width: 100%;
-  height: 500px;
-  background-color:#FFFFFF;
-  display:flex; /* Flexboxの利用 */
-  justify-content:center; /* 子要素の横並び・中央寄せ */
-}
+
+
 .main{
-  width:960px;
-  height:500px;
-  margin-top:50px,auto;
+  width:100%;
+  margin-top:50px;
+  margin-bottom: 50px;
+  color:#FFFFFF;
   display:flex; /* Flexboxの利用 */
   justify-content:center; /* 子要素の横並び・中央寄せ */
   
 }
+  /*padding-top:50px;*/
+  /*padding-bottom:50px;*/
+
 .step-box{
   /*横並びになって欲しい*/
   list-style: none;
@@ -60,6 +59,10 @@ header{
 }
 .title{
   margin:15px 0 5px;
+  color:black;
+}
+.txet {
+  color:black; 
 }
 .step-img2{
   width:280px;/* 高さ280px */
