@@ -1,0 +1,61 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header{
+  /*横いっぱいのたて50px*/
+  width: 100%;
+  height: 50px;
+  background-color:#FF9A4B;
+}
+.mainvisual{
+  /*たて500横100%*/
+  width: 100%;
+  height: 500px;
+  background-color: orange;
+}
+.mainground{
+  width:100%;
+  height:1400px;
+  background-color:pink;
+  display:flex;
+  justify-content: center;
+}
+.main{
+  /*センター配置*/
+  width:100%;
+  height:400px;
+  color:#FFFFFF;
+  display:flex;
+  justify-content: center;
+  padding-top:50px;
+  padding-bottom:50px;
+}
+.box{
+  width: 300px;
+  height: 300px;
+  background-color:#EEEEEE;
+    /*横並びになって欲しい*/
+  list-style: none;
+  display: inline-block;
+  margin: 0 30px;
+  position: relative; /* #step-boxの基準位置を相対位置へ変更する */
+ }
+ .step-box{
+   /*左上配置、サイズ指定なし*/
+  position: absolute; /* boxの左上を基準に絶対位置で指定する */
+  width: 50px;
+  height: 30px;
+  background-color:#FF9A4B;
+}
+p{
+  color:#FFFFFF;
+}
+
+.footer{
+  width: 100%;
+  height: 50px;
+  background-color:#AAAAAA;
+}
