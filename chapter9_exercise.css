@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/*class名「position」をセレクタとして、「Twitter」と「Facebook」のアイコンを
+右側から40pxで上側から100pxの場所へpositionを使って移動してください。*/
+.position{
+  /*position-right:40px;*/
+  /*position-top:100pxこれでは動かない×*/
+  
+  position: absolute; /* headerの左上を基準に絶対位置で指定する */
+  right:40px;
+  top:100px;
+}
+
+/*.fa-brands fa-twitter{*/
+/*  size:32px;*/
+/*}*/
+/*.fa-brands fa-facebook-f{*/
+/*  size:32px;*/
+/*}*/
+
+/*省略可能*/
+fa {
+  font-size: 32px;
+}
+
